@@ -1,10 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>24BCI0241</title>
+  <meta charset="UTF-8">
+  <title>24BCI0241 | GitHub Pages</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(120deg, #1d2671, #c33764);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 40px;
+      width: 90%;
+      max-width: 700px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+      animation: fadeIn 1.5s ease;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-weight: 400;
+      margin-bottom: 20px;
+      opacity: 0.9;
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-bottom: 15px;
+      opacity: 0.95;
+    }
+
+    .info {
+      margin-top: 25px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255,255,255,0.3);
+    }
+
+    .info span {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    footer {
+      margin-top: 25px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+      text-align: center;
+    }
+
+    footer span {
+      color: #ffd700;
+      font-weight: 500;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Welcome 👋</h1>
-  <p>This is my GitHub Pages website.</p>
+
+  <div class="card">
+    <h1>Hello 👋</h1>
+    <h2>I’m <span style="color:#ffd700;">Yashika</span></h2>
+
+    <p>
+      Welcome to my GitHub Pages website.  
+      This site is created as part of my academic work to demonstrate
+      the use of <strong>GitHub Pages</strong> for hosting static websites.
+    </p>
+
+    <p>
+      This project reflects my interest in technology, web development,
+      and modern tools used in software engineering.
+    </p>
+
+    <div class="info">
+      <span><strong>Roll Number:</strong> 24BCI0241</span>
+      <span><strong>Platform:</strong> GitHub Pages</span>
+      <span><strong>Technology:</strong> HTML & CSS</span>
+    </div>
+
+    <footer>
+      Designed with <span>❤</span> using GitHub Pages
+    </footer>
+  </div>
+
 </body>
 </html>
